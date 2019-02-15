@@ -57,9 +57,8 @@ class Pdns < Formula
       <string>#{plist_name}</string>
       <key>ProgramArguments</key>
       <array>
-        <string>#{opt_bin}/pdns_server</string>
+        <string>#{sbin}/pdns_server</string>
       </array>
-      <key>EnvironmentVariables</key>
       <key>KeepAlive</key>
       <true/>
       <key>SHAuthorizationRight</key>
